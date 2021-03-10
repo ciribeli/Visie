@@ -1,0 +1,106 @@
+table {
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+    margin: 30px 0px;
+}
+
+thead {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+}
+
+td {
+    border: 1px solid #dee2e6;
+    height: 60px;
+    border-right: 0px solid;
+    border-left: 0px solid;
+}
+
+tbody tr td:first-child {
+    border-right: 1px solid #212529;
+}
+
+tbody tr:nth-child(2n+2) {
+    background: #e9ecef;
+}
+
+table input[type="submit"] {
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #212529;
+    word-break: break-word;
+    display: block;
+    padding: 10px 20px;
+    float: right;
+}
+
+table input[type="submit"]:hover {
+    background: #212529;
+    color: white;
+}
+
+td:nth-child(2) {
+    width: 40%;
+}
+
+td:first-child {
+    width: 40%;
+}
+
+.section-inserir form {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+section.section-inserir {
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0px 15px;
+}
+
+.section-inserir input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #212529;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.datas label {
+    font-size: 13px;
+    width: 100%;
+    margin: 0px;
+}
+
+.section-inserir input[type="submit"]:hover {
+    background: #212529;
+    color: white;
+}
+
+@media (min-width: 768px){
+  table {
+      text-align: center;
+      margin: 30px auto;
+  }
+  .section-inserir input {
+    width: 48%;
+  }
+  .datas {
+    width: 48%;
+  }
+  .section-inserir .datas input {
+    width: 100%;
+  }
+  section.section-inserir {  
+    padding: 0px 0px;
+  }
+}
